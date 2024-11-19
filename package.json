@@ -1,0 +1,30 @@
+{
+  "name": "to-do-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.21.1",
+    "http-errors": "~1.6.3",
+    "jade": "^0.29.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^3.1.7"
+  },
+  "description": "A TO-DO website built with node and express",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elvisnc9/TO-DO-API.git"
+  },
+  "author": "Elviznc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elvisnc9/TO-DO-API/issues"
+  },
+  "homepage": "https://github.com/Elvisnc9/TO-DO-API#readme"
+}
