@@ -9,18 +9,20 @@
     "body-parser": "^1.20.3",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
+    "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "http-errors": "~1.6.3",
     "jade": "^0.29.0",
     "morgan": "~1.9.1",
     "mysql2": "^3.11.4",
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "sequelize": "^6.37.5"
   },
   "description": "A TO-DO website built with node and express",
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Elvisnc9/CRUD-API-SQL.git"
+    "url": "git+https://github.com/Elvisnc9/CRUD-API-SQL.git"
   },
   "author": "Elviznc",
   "license": "ISC",
