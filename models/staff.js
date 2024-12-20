@@ -15,10 +15,6 @@ const Staff = sequelize.define('Staff', {
         type: DataTypes.JSON, 
         allowNull: true,
     },
-    month: {
-        type: DataTypes.STRING,
-        allowNull: false,
-    },
 });
 
 module.exports = Staff;
