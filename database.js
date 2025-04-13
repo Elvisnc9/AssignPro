@@ -1,13 +1,13 @@
 const { Sequelize} = require('sequelize');
 
 const sequelize = new Sequelize(
-    'staff_management_db',
-    'root',
-    'Ngwudalu12345.',
+    'DB name',
+    'ROOT',
+    'password',
     {
         host: 'localhost',
         dialect: 'mysql',
-        port: '4939'
+        port: 
     }
 );
 
